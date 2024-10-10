@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    overflow: hidden;
+}
+#heroImage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-top: 20px;
+}
+#cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+    gap: 10px;
+}
+.card {
+    width: 120px;
+    height: 220px;
+    border: 1px solid #928d8d;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #726f6f;
+    color: #d9d6d6;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.type-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 12px;
+    color: white;
+    font-size: 14px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #555;
+}
+.legendary-label, .mythical-label {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+.legendary-label {
+    color: rgb(255, 222, 92);
+}
+.mythical-label {
+    color: rgb(255, 255, 255);
+}
+.author {
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.author:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+.author:hover::after {
+    content: "github.com";
+    font-size: 14px;
+    display: block;
+    color: #ddd;
+}
+.footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
