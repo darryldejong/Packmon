@@ -8,3 +8,7 @@ This project lets users open random Pokémon cards using HTML, CSS, and JavaScri
 ![Preview van het project](preview.png)
 
 Author: Darryl de Jong
+
+#### Disclaimer
+
+The images used in this project are owned by their respective artists. All rights are reserved. If you're the owner of an image and wish to have it removed or modified, please contact me.
