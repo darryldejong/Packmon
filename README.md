@@ -1,5 +1,5 @@
 # PokemonPackCardOpener
-A fan-made simulator that lets you open virtual Pokémon packs by clicking a button.
+A fan-made game that lets you open virtual Pokemon packs by clicking a button.
 
 This project lets users open random Pokémon cards with data from the Poke API. You can open five cards at once.
 
