@@ -3,7 +3,7 @@ A fan-made game that lets you open virtual Pokemon packs by clicking a button.
 
 This project lets users open random Pokémon cards with data from the Poke API. You can open five cards at once.
 
-![Preview van het project](preview.png)
+![Preview van het project](/Images/preview.png)
 
 #### Disclaimer
 
